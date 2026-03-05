@@ -1,9 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// Bullet: Moves upward and destroys itself when hitting obstacles or leaving screen.
-/// Attach to Bullet prefab. Add a Rigidbody2D (Kinematic) and CircleCollider2D (Is Trigger).
-/// </summary>
 public class Bullet : MonoBehaviour
 {
     public float speed = 10f;

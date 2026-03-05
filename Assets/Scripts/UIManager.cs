@@ -2,10 +2,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-/// <summary>
-/// UIManager: Controls all HUD elements during gameplay.
-/// Attach to a Canvas GameObject in the GameScene.
-/// </summary>
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;

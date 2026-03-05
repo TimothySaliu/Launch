@@ -2,10 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-/// <summary>
-/// GameManager: Central controller for all game states.
-/// Attach to a persistent "GameManager" GameObject in every scene.
-/// </summary>
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance; // Singleton so any script can access it

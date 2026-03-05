@@ -1,19 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-/// <summary>
-/// WinScreenUI: Shown when the player wins.
-/// Attach to Canvas in WinScene.
-/// 
-/// Scene setup:
-/// - Canvas
-///   - WinText (TextMeshProUGUI) → "You launched into the future!"
-///   - FinalScoreText (TextMeshProUGUI) → shows final score
-///   - SloganText (TextMeshProUGUI) → "We launch you into the future!"
-///   - LogoImage (Image)
-///   - RestartButton → calls OnRestartClicked()
-///   - MainMenuButton → calls OnMainMenuClicked()
-/// </summary>
+
 public class WinScreenUI : MonoBehaviour
 {
     [Header("UI Elements")]

@@ -1,10 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// ObstacleScript: Falling obstacle that damages the player on contact.
-/// Attach to Obstacle prefab. Add SpriteRenderer, Rigidbody2D (Kinematic), BoxCollider2D (Is Trigger).
-/// Tag the GameObject as "Obstacle".
-/// </summary>
 public class ObstacleScript : MonoBehaviour
 {
     [Header("Stats")]

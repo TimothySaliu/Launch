@@ -1,12 +1,6 @@
 using UnityEngine;
 
-/// <summary>
-/// PlayerController: Handles player ship movement and shooting.
-/// Attach to the Player GameObject. Requires a Rigidbody2D.
-/// 
-/// GAME CONCEPT: Space shooter where the player dodges and shoots falling obstacles.
-/// Theme: "Launch into the future!" - player pilots a rocket/spaceship.
-/// </summary>
+
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
@@ -32,7 +26,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0; // No gravity for top-down space game
+        rb.gravityScale = 0; 
         currentLives = maxLives;
 
         // Update HUD

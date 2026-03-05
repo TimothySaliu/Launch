@@ -1,10 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// ObstacleSpawner: Spawns obstacles at random positions at the top of the screen.
-/// Attach to an empty "Spawner" GameObject above the visible screen area.
-/// Spawn rate increases automatically with game difficulty.
-/// </summary>
 public class ObstacleSpawner : MonoBehaviour
 {
     [Header("Spawning")]
